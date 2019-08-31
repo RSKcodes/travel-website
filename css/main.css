@@ -1,0 +1,234 @@
+/* css reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* styling starts from here */
+
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+}
+
+/* re-useable class */
+
+.container {
+    margin: auto;
+    max-width: 80%;
+    padding: 0px 20px;
+    text-align: center;
+
+}
+
+.primText {
+    color: #ff9a00;
+}
+
+.primText-dark {
+    color: #161718;
+}
+
+.btns {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222831;
+    color: #ff9a00;
+    border: none;
+}
+
+.btns-light {
+    background-color: #eeeeee;
+    color: #161718;
+}
+
+.btns:hover {
+    background-color: #161718;
+    color: #ff9a00;
+}
+
+.block {
+    width: 50%;
+}
+
+/*nav bar styles*/
+
+h1 {
+    padding: 15px 0px;
+}
+
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#navBar {
+    background-color: #222831;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navBar h1 {
+    float: left;
+    text-transform: uppercase;
+}
+
+
+#navBar ul {
+    float: right;
+    list-style: none;
+}
+
+#navBar ul li {
+    float: left;
+}
+
+#navBar ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+
+}
+
+#navBar ul li a.login_logo {
+    display: block;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#navBar ul li a.login_logo i {
+    font-size: 38px;
+}
+
+
+/* nav bar on hover styles*/
+
+#navBar h1 a:hover {
+    color: #ff9a00;
+}
+
+#navBar ul li a:hover,
+a.current {
+    background-color: #161718;
+    color: #ff9a00;
+}
+
+
+/* showcase styles*/
+
+#showcase-home {
+    background: url("../image_resources/welcome.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+
+#showcase-about {
+    background: url("../image_resources/about-mainShowCase-image.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+
+#showcase-home h1,
+#showcase-about h1 {
+    color: #eeeeee;
+    padding-top: 350px;
+    padding-bottom: 20px;
+}
+
+#showcase-home p,
+#showcase-about p {
+    color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* gallery css */
+
+#gallery .block:nth-child(1) {
+    background: url("../image_resources/mountain_1.jpg") no-repeat center center/cover;
+    height: 400px;
+    float: left;
+}
+
+#gallery .block:nth-child(2) {
+    float: left;
+    height: 400px;
+    background-color: #161718;
+    color: #eeeeee;
+}
+
+#gallery .container h2 {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+#gallery .container p {
+    padding-bottom: 30px;
+    font-size: 0.8rem;
+}
+
+/* attractions*/
+
+.attractions {
+    width: 33.33%;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.attractions i {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.attractions p {
+    padding-top: 1.5rem;
+}
+
+#gallery .attractions:nth-child(even) {
+    background-color: #222831;
+    color: #eeeeee;
+}
+
+.footer {
+    padding: 2rem 0rem 1rem 0rem;
+    background-color: #161718;
+    color: #eeeeee;
+    float: none;
+    font-size: 0.8rem;
+}
+
+.reviews {
+    padding: 4rem 0rem;
+}
+
+
+.reviewer-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.reviewer-details div {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reviewer-details div:nth-child(2) {
+    padding: 1.7rem 0rem 0rem 1rem;
+}
+
+.review-content {
+    padding: 1rem 2rem;
+    margin: 0rem 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+
+}
