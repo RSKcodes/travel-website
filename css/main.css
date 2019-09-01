@@ -33,6 +33,11 @@ body {
     color: #161718;
 }
 
+.primText-light {
+    color: #eeeeee;
+}
+
+
 .btns {
 
     display: inline-block;
@@ -94,17 +99,8 @@ a {
     display: block;
     padding: 15px 20px;
     text-align: center;
+    font-size: 18px;
 
-}
-
-#navBar ul li a.login_logo {
-    display: block;
-    padding: 5px 20px;
-    text-align: center;
-}
-
-#navBar ul li a.login_logo i {
-    font-size: 38px;
 }
 
 
@@ -146,18 +142,13 @@ a.current {
     padding-bottom: 20px;
 }
 
-#showcase-home p,
-#showcase-about p {
+
+#showcase-home p {
     color: #eeeeee;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-#showcase-contact-us p {
-    color: #161718;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
 
 /* gallery css */
 
