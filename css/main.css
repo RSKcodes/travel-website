@@ -129,12 +129,18 @@ a.current {
 }
 
 #showcase-about {
-    background: url("../image_resources/about-mainShowCase-image.jpg") no-repeat center center/cover;
+    background: url("../image_resources/about-mainShowCase-image2.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+
+#showcase-contact-us {
+    background: url("../image_resources/contact-us-mainShowCase-image.jpg") no-repeat center center/cover;
     height: 700px;
 }
 
 #showcase-home h1,
-#showcase-about h1 {
+#showcase-about h1,
+#showcase-contact-us h1 {
     color: #eeeeee;
     padding-top: 350px;
     padding-bottom: 20px;
@@ -143,6 +149,12 @@ a.current {
 #showcase-home p,
 #showcase-about p {
     color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#showcase-contact-us p {
+    color: #161718;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -180,6 +192,7 @@ a.current {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     padding-bottom: 2rem;
+    height: 280px;
 }
 
 .attractions i {
@@ -191,7 +204,7 @@ a.current {
     padding-top: 1.5rem;
 }
 
-#gallery .attractions:nth-child(even) {
+.attractions:nth-child(even) {
     background-color: #222831;
     color: #eeeeee;
 }
@@ -200,7 +213,6 @@ a.current {
     padding: 2rem 0rem 1rem 0rem;
     background-color: #161718;
     color: #eeeeee;
-    float: none;
     font-size: 0.8rem;
 }
 
