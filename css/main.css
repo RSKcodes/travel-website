@@ -74,7 +74,6 @@ a {
 
 #navBar {
     background-color: #222831;
-    overflow: auto;
     position: fixed;
     top: 0;
     width: 100%;
